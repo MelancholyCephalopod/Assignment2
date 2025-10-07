@@ -1,0 +1,233 @@
+    body {
+        height: 1080px;
+        width: 1920px;
+        border: 1px solid rgb(0, 0, 0);
+        flex-direction: column;
+        display: flex;
+        font-family: "Times New Roman", serif;
+        background-color: rgb(255, 255, 255);
+        border-collapse: collapse;
+    }
+    .topSection {
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 2%;
+        
+    }
+    .midsection {
+        background-color: rgb(172, 215, 253);
+        flex-wrap: wrap;
+        flex-direction: row;
+        border: 1px solid rgb(0, 0, 0);
+        width: 100%;
+        height: 47%;
+        display: flex;
+        justify-content: start;
+        border-collapse: collapse;
+    } 
+    .bottomsection {
+        background-color: rgb(172, 215, 253);
+        text-indent: 5px;
+        flex-direction: row;
+        border: 1px solid rgb(0, 0, 0);
+        width: 100%;
+        height: 47%;
+        display: flex;
+        justify-content: space-between;
+        border-collapse: collapse;
+
+    }
+    .footer {
+        background-color: rgb(0, 0, 0);
+        height: 50px;
+        justify-content: center;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        text-indent: 5px;
+        color: rgb(165, 165, 165);
+        font-size: 20px;
+
+    }
+    .left, .mid, .right {
+        display: flex;
+        flex-direction: column;
+    }
+    .left { 
+        width: 11.7%; 
+    }
+    .mid { 
+        width: 50%; 
+    }
+    .right { 
+        width: 38.3%; 
+    }
+    .nav a {
+        font-size: 20px;
+        height: 100%;
+        width: 100px;
+        border-right: 1px solid rgb(165, 165, 165);
+        color: rgb(165, 165, 165);
+        text-decoration: none;
+    }
+    .nav {
+        text-indent: 5px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+    }
+    .myImage {
+        width: 120px;
+        height: 120px;
+    }
+    .socials {
+        border-radius: 50%;
+        width: 30px;
+        height: inherit;
+    }
+    
+    .projectImage {
+        margin: 10px;
+        width: 50px;
+        height: 50px;
+    }
+    .Projectsbox {
+        height: 100%;
+    }
+    .Projectsbox h1 {
+        border: 1px solid black;
+        margin: 0;
+        text-align: center;
+        font-size: 20px;
+        height: 4%;
+        border-collapse: collapse;
+    }
+    .projects {
+        text-align: left;
+        flex-direction: row;
+        display: flex;
+        height: 78%;
+    }
+    .projects h2 {
+        border: .5px solid black;
+        text-align: center;
+        font-size: 20px;
+        padding: 2px;
+        margin: 0;
+    } 
+    .projects ul {
+        list-style-position:inside;
+        border: 1px solid black;
+        font-size: 20px;
+        margin: 0;
+        padding: 1px;
+        height: 100%;
+        border-collapse: collapse;
+    }
+    .projects li {
+        margin-left: 0;
+        padding-left: 10px; /* or any value you prefer */
+    }
+    .projectImage {
+        border: 1px solid black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse;
+    }
+    .profile{
+        height: 100%;
+        width: 100%;
+    }
+     .Profilebox {
+        text-align: center;
+        font-size: 12px;
+        width: 100%;
+        height: 30%;
+    }
+    .Profilebox p {
+        margin: 0;
+        padding: 0;
+    }
+    .Educationbox h1 {
+        border: 1px solid black;
+        text-indent: 5px;
+        margin: 0;
+        font-size: 20px;
+        padding: 1px;
+        width: 222px;
+        text-align: center;
+        border-collapse: collapse;
+    }
+    .Educationbox ul {
+        margin: 0;
+        margin-top: 10px;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .Aboutbox {
+        border: 1px solid black;
+        width: 100%;
+        height: 100%;
+        border-collapse: collapse;
+    }
+    .Aboutbox h1 {
+        border-bottom: 1px solid black;
+        text-align: center;
+        text-indent: 5px;
+        margin: 0;
+        font-size: 20px;
+        height: 4%;
+    }
+    .Aboutbox ul {
+        list-style-position: inside;
+        height: 100%;
+        margin: 0;
+        margin-top: 10px;
+        font-size: 25px;
+        padding-left: 20px;
+        text-align: left;
+    }
+
+    .blog {
+        border: 1px solid black;
+        width: 70%;
+        height: 100%;
+        border-collapse: collapse;
+    }
+    .experience {
+        border: 1px solid black;
+        width: 30%;
+        height: 100%;
+        border-collapse: collapse;
+    }
+    .socials-section {
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+    .blog h1 {
+        border-right: 1px solid black;
+        width: 50px;
+        text-align: left;
+    }
+    .blog h1, .experience h1 {
+        border-bottom: 1px solid black;
+        text-align: center;
+        text-indent: 5px;
+        margin: 0;
+        font-size: 20px;
+    }
+    .blog main {
+        text-indent: 10px
+    }
+    .blog main, .experience main {
+        font-size: 25px;
+        padding: 5px;
+        height: 90%;
+    }
